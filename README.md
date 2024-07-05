@@ -18,13 +18,11 @@ You'll need to first create an Azure Container Registry (ACR). This can be done 
 
 ### Bash
 
-Luckily, I've already made a script that includes all of the commands from [Azure CLI](#azure-cli). All you need to do is run the following command:
+Luckily, I've already made a script that includes all of the commands from [Azure CLI](#azure-cli). All you need to do is update the variables in `deploy.sh` and run the following command:
 
 ```bash
 sh deploy.sh
 ```
-
-> You'll need to first update the variables inside `deploy.sh` before running the above command!
 
 ### Azure CLI
 
