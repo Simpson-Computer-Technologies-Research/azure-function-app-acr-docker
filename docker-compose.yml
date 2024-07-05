@@ -1,6 +1,7 @@
 services:
   azure-function:
     container_name: azure-function
+    restart: always
     build:
       context: .
       dockerfile: Dockerfile
