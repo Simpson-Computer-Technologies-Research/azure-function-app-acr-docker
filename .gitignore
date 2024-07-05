@@ -11,6 +11,8 @@ Publish
 *.Cache
 project.lock.json
 
+tmp.sh
+
 /packages
 /TestResults
 

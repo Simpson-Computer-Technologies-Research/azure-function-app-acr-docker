@@ -2,7 +2,7 @@
 DOCKER_ID="your-docker-id" # Your Docker username (ID)
 
 ACR_REGISTRY_NAME="change-me" # This is the name of your ACR registry
-ACR_LOGIN_SERVER=${ACR_REGISTRY_NAME}.azurecr.io
+ACR_LOGIN_SERVER="${ACR_REGISTRY_NAME}.azurecr.io"
 ACR_IMAGE_NAME="azurefunctionsimage" # This can be anything you want
 ACR_IMAGE_VERSION="v1.0.0" # This can be anything you want
 
