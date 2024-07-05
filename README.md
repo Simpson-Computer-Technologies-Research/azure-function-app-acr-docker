@@ -16,8 +16,7 @@ You can now access the api via `http://localhost:8080` and the function endpoint
 
 What you need to do:
 
-1. Login to Azure: `az login`
-2. Update the variables in `deploy.sh`
-3. Run the following command: `bash deploy.sh`
+1. Update the variables in `deploy.sh`
+2. Run the following command: `bash deploy.sh`
 
 And there you go! You've deployed an Azure Function App with Docker.

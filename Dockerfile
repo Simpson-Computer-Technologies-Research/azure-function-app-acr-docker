@@ -10,5 +10,3 @@ COPY . /home/site/wwwroot
 RUN cd /home/site/wwwroot && \
     npm install && \
     npm run build
-
-RUN echo "Now listening on: http://localhost:8080"
