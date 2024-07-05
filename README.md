@@ -32,7 +32,7 @@ Otherwise, here's all of the commands...
 
 ```bash
 # Define variables
-DOCKER_ID="realtristan2224" # Your Docker username (ID)
+DOCKER_ID="your-docker-id" # Your Docker username (ID)
 ACR_REGISTRY_NAME="change-me" # This is the name of your ACR registry
 ACR_LOGIN_SERVER=${ACR_REGISTRY_NAME}.azurecr.io
 ACR_IMAGE_NAME="azurefunctionsimage" # This can be anything you want
