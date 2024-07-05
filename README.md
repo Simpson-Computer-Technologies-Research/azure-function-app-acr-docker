@@ -63,7 +63,7 @@ RESOURCE_GROUP="change-me" # This is the name of your resource group
 FUNCTION_APP_NAME="change-me" # This is the name of your function app
 
 # This will update the deployment with the new image
-az ${FUNCTION_APP_NAME} config container set --image ${ACR_IMAGE_NAME} --registry-password ${ACR_PASSWORD} --registry-username ${ACR_REGISTRY_NAME} --name ${FUNCTION_APP_NAME} --resource-group ${RESOURCE_GROUP}
+az functionapp config container set --image ${ACR_IMAGE_NAME} --registry-password ${ACR_PASSWORD} --registry-username ${ACR_REGISTRY_NAME} --name ${FUNCTION_APP_NAME} --resource-group ${RESOURCE_GROUP}
 ```
 
 And there you go! You've deployed an Azure Function App with Docker.

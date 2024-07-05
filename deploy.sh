@@ -25,4 +25,4 @@ az acr update -n ${ACR_REGISTRY_NAME} --admin-enabled true
 ACR_PASSWORD=$(az acr credential show --name ${ACR_REGISTRY_NAME} --query "passwords[0].value" --output tsv)
 
 # This will update the deployment with the new image
-az ${FUNCTION_APP_NAME} config container set --image ${ACR_IMAGE_NAME} --registry-password ${ACR_PASSWORD} --registry-username ${ACR_REGISTRY_NAME} --name ${FUNCTION_APP_NAME} --resource-group ${RESOURCE_GROUP}
+az functionapp config container set --image ${ACR_IMAGE_NAME} --registry-password ${ACR_PASSWORD} --registry-username ${ACR_REGISTRY_NAME} --name ${FUNCTION_APP_NAME} --resource-group ${RESOURCE_GROUP}
